@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Frontend dev</title>
+  </head>
+  <body>
+    <!--HEADER-->
+    <header class="header">
+      <div class="wrapper">
+        <div class="header-wrapper">
+          <div class="header-logo">
+            <a href="/" class="header-logo-link">
+              <img src="./img/logo-2.png" alt="logo" class="header-logo-pic" />
+            </a>
+          </div>
+          <!--Menu-->
+          <nav class="header-nav">
+            <ul class="header-list">
+              <li class="header-li">
+                <a class="header-link" href="/">Главная</a>
+              </li>
+              <li class="header-li">
+                <a class="header-link js-scroll" href="#about">Обо мне</a>
+              </li>
+              <li class="header-li">
+                <a class="header-link js-scroll" href="#portfolio"
+                  >Опыт работы</a
+                >
+              </li>
+              <li class="header-li">
+                <a class="header-link js-scroll" href="#portfolio">Контакты</a>
+              </li>
+            </ul>
+            <div class="header-nav-close">
+              <span class="header-nav-close-line"></span>
+              <span class="header-nav-close-line"></span>
+            </div>
+          </nav>
+          <!--End Menu -->
+          <!--Mobile menu-->
+          <div class="burger-menu burger">
+            <span class="burger-line burger-line-one"></span>
+            <span class="burger-line burger-line-two"></span>
+            <span class="burger-line burger-line-three"></span>
+          </div>
+          <!--End Mobile menu-->
+        </div>
+      </div>
+    </header>
+    <!--HEADER END-->
+    <!--BACKGROUND-->
+    <main class="main">
+      <section class="intro">
+        <div class="wrapper">
+          <div class="title-type-animation">
+            <h1 class="intro-title">Full-stack developer</h1>
+          </div>
+        </div>
+      </section>
+      <!--BACKGROUND END-->
+      <!--About me-->
+      <section class="about">
+        <div class="about-wrapper" id="about">
+          <h2 class="about-title">Обо мне</h2>
+          <!--Card-->
+          <div class="about-cards">
+            <div class="about-card">
+              <div class="about-card-pic">
+                <img
+                  src="/cards/free-icon-protection.svg"
+                  alt="info sec"
+                  class="about-card-thumb"
+                />
+              </div>
+              <h3 class="about-card-title">Информационная безопасность</h3>
+              <p class="about-card-desc">
+                СКЗИ VipNet, MaxPatrol, R-Vision
+                <br />
+                KaliLinux
+              </p>
+              <a href="#!" class="about-card-link">Узнать больше</a>
+            </div>
+            <div class="about-card">
+              <div class="about-card-pic">
+                <img
+                  src="./cards/front-end.svg"
+                  alt="frontend"
+                  class="about-card-thumb"
+                />
+              </div>
+              <h3 class="about-card-title">Full stack developer</h3>
+              <p class="about-card-desc">
+                Javascript (Vue.js, React) <br />
+                NodeJS, C#, PHP (Backend)
+              </p>
+              <a href="#!" class="about-card-link">Узнать больше</a>
+            </div>
+            <div class="about-card">
+              <div class="about-card-pic">
+                <img
+                  src="./cards/free-icon-hacker.svg"
+                  alt="osint"
+                  class="about-card-thumb"
+                />
+              </div>
+              <h3 class="about-card-title">Конкурентная разведка</h3>
+              <p class="about-card-desc">
+                Поиск и анализ информации <br />
+                Open Source INTelligence
+              </p>
+              <a href="#!" class="about-card-link">Узнать больше</a>
+            </div>
+          </div>
+          <!--Card end-->
+        </div>
+      </section>
+      <!--About me end-->
+      <!--Portfolio start-->
+      <section class="portfolio" id="portfolio">
+        <div class="wrapper-full">
+          <div class="portfolio-caption">
+            <h2 class="portfolio-title section-title">Опыт работы</h2>
+            <a href="#!" class="portfolio-view-all">Смотреть всё</a>
+          </div>
+          <div class="portfolio-cards">
+            <div class="portfolio-card portfolio-cards-size-lg">
+              <img
+                src="./img/portfolio/portfolio-1.jpeg"
+                alt="Developer"
+                class="portfolio-card-pic portfolio-card-pic-lg"
+              />
+              <div class="portfolio-card-title">Developer</div>
+              <a href="#!" class="portfolio-link"></a>
+            </div>
+            <div class="portfolio-card portfolio-cards-size-lg">
+              <img
+                src="./img/portfolio/portfolio-2.jpeg"
+                alt="Web Developer"
+                class="portfolio-card-pic portfolio-card-pic-lg"
+              />
+              <div class="portfolio-card-title">Web Developer</div>
+              <a href="#!" class="portfolio-link"></a>
+            </div>
+
+            <div class="portfolio-card portfolio-cards-size-sm">
+              <img
+                src="./img/portfolio/portfolio-3.png"
+                alt="Information Security"
+                class="portfolio-card-pic portfolio-card-pic-sm"
+              />
+              <div class="portfolio-card-title">Information Security</div>
+              <a href="#!" class="portfolio-link"></a>
+            </div>
+            <div class="portfolio-card portfolio-cards-size-sm">
+              <img
+                src="./img/portfolio/portfolio-4.png"
+                alt="OSINT"
+                class="portfolio-card-pic portfolio-card-pic-sm"
+              />
+              <div class="portfolio-card-title">OSINT</div>
+              <a href="#!" class="portfolio-link"></a>
+            </div>
+            <div class="portfolio-card portfolio-cards-size-sm">
+              <img
+                src="./img/portfolio/portfolio-5.jpeg"
+                alt="Web design"
+                class="portfolio-card-pic portfolio-card-pic-sm"
+              />
+              <div class="portfolio-card-title">Web design</div>
+              <a href="#!" class="portfolio-link"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Portfolio end-->
+
+      <!--https://stackshare.io/nodemailer/alternatives-->
+      <!--ТЕГ pic и тег Figure-->
+      <!--Contacts-->
+      <div class="contacts">
+        <div class="wrapper-full">
+          <div class="cotactcs-wrap">
+            <div class="contact">
+              <img
+                src="/img/contacts.jpeg"
+                alt="Contacts"
+                class="contact-thumb"
+              />
+            </div>
+            <div class="contact-ifo">
+              <h3 class="contact-title">Антон Викторович</h3>
+              <p class="contact-desc">
+                Высшее образование - программная инженерия
+                <br />
+                <br />
+                Опыт работы:
+                <br />
+                Xerox Company - Project manager
+                <br />
+                Государственная служба - Главный специалист
+              </p>
+              <a href="#!" class="send-mail">Отправить письмо</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End Contacts-->
+      <!--Video-->
+      <div class="video">
+        <div class="video-wrapper">
+          <div class="video-item"></div>
+          <iframe
+            class="video-el"
+            src="https://www.youtube.com/embed/LkzUkcjNfzk?controls=0&amp;start=36;"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+      <!--End Video-->
+    </main>
+    <footer class="footer">
+      <div class="wrapper">
+        <div class="footer-items">
+          <img src="./img/logo-footer.png" alt="hacker" class="logo-pic-ft" />
+          <h4 class="footer-title">© Антон Викторович</h4>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
